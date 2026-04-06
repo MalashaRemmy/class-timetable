@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Class Timetable | Days as Rows · 3 Time Slots</title>
+    
+    <style>
+        
+    </style>
+</head>
+<body>
+<div class="timetable-wrapper">
+
+    <div class="header-area">
+        <div class="title-section">
+            <h1> Class Timetable</h1>
+            <p>Days as 1st rows · 5 dedicated time slots per day (Monday → Friday)</p>
+        </div>
+        <div class="badge-info">
+             5 sessions daily &nbsp;|&nbsp;  5 weekdays
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="timetable">
+            
+            <thead>
+                <tr>
+                    <th>Day / Time</th>
+                    <th> Morning Slot <br> 07:00 – 90:00</th>
+                    <th> Morning Slot <br> 09:00 – 11:00</th>
+                    <th> Midday Slot <br> 11:00 – 13:00</th>
+                    <th> Afternoon Slot <br> 14:00 – 16:00</th>
+                    <th> Afternoon Slot <br> 16:00 – 18:00</th>
+                </tr>
+            </thead>
+
+                <tbody>
+
+                    <!-- MONDAY row (first column = Monday, then five time slot columns) -->
+                    <tr>
+                        <td class="day-name-cell"> Monday </td>                    
+                        <!-- Early Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Mid Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Midday  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 345:</span>
+                                <span class="teacher-name">Mr. Mumba</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Afternoon -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 361:</span>
+                                <span class="teacher-name">Dr. Zita</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Evening  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- TUESDAY row -->
+                    <tr>
+                        <td class="day-name-cell"> TUESDAY </td>                    
+                        <!-- Early Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">MA 320:</span>
+                                <span class="teacher-name">Mr. Sinyangwe</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Mid Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 345</span>
+                                <span class="teacher-name">Mr. Mumba</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Midday  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Afternoon -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Evening  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"> </span>
+                                <span class="teacher-name"> </span>
+                                <span class="venue"> </span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- WEDNESDAY row (includes a workshop / special session) -->
+                    <tr>
+                        <td class="day-name-cell"> WEDNESDAY </td>                    
+                        <!-- Early Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">MA 320:</span>
+                                <span class="teacher-name">Mr. Sinyangwe</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Mid Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 320:</span>
+                                <span class="teacher-name">Mr. Shumba</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Midday  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Afternoon -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 351:</span>
+                                <span class="teacher-name">Dr. Zita</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Evening  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"> </span>
+                                <span class="teacher-name"> </span>
+                                <span class="venue"> </span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- THURSDAY row -->
+                    <tr>
+                        <td class="day-name-cell"> THURSDAY </td>                    
+                        <!-- Early Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"> </span>
+                                <span class="teacher-name"> </span>
+                                <span class="venue"> </span>
+                            </div>
+                        </td>
+                        <!-- Mid Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 361</span>
+                                <span class="teacher-name">Dr. Zita</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                        <!-- Midday  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Afternoon -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Evening  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 320:</span>
+                                <span class="teacher-name">Mr. Shumba</span>
+                                <span class="venue">C 302</span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- FRIDAY row (includes a free period / study hall) -->
+                    <tr>
+                        <td class="day-name-cell"> FRIDAY </td>                    
+                        <!-- Early Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"> </span>
+                                <span class="teacher-name"> </span>
+                                <span class="venue"> </span>
+                            </div>
+                        </td>
+                        <!-- Mid Morning -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"> </span>
+                                <span class="teacher-name"> </span>
+                                <span class="venue"> </span>
+                            </div>
+                        </td>
+                        <!-- Midday  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name">CS 301:</span>
+                                <span class="teacher-name">Dr. Lengwe</span>
+                                <span class="venue">Supervisor Office</span>
+                            </div>
+                        </td>
+                        <!-- Afternoon -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"></span>
+                                <span class="teacher-name"></span>
+                                <span class="venue"></span>
+                            </div>
+                        </td>
+                        <!-- Evening  -->
+                        <td>
+                            <div class="class-card">
+                                <span class="subject-name"> </span>
+                                <span class="teacher-name"> </span>
+                                <span class="venue"> </span>
+                            </div>
+                        </td>
+                    </tr>
+
+                </tbody>
+        </table>
+    </div>
+
+    <div class="info-footer">
+        <div class="legend">
+            <span><i class="legend-dot"></i> Standard lecture</span>
+            <span><i class="legend-dot special"></i> Free / Study period</span>
+            <span><i class="legend-dot ws"></i> Workshop / Lab session</span>
+            <span> 3 fixed daily time blocks</span>
+        </div>
+        <div class="stats">
+             Monday → Friday &nbsp;|&nbsp; 8 class sessions
+        </div>
+    </div>
+    <div style="font-size: 0.7rem; text-align: center; margin-top: 1rem; color: #5b7896;">
+        Timetable layout: days in first column · three time slots (morning, midday, afternoon) as column headers
+    </div>
+</div>
+</body>
+</html>
